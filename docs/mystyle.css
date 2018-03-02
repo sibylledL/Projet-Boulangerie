@@ -1,0 +1,134 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+header {
+  background-image: url("bandeau.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+
+
+.menu {
+  background-color: black;
+  height: 150px;
+  width: 100%;
+  opacity: 0.9;
+  position: fixed;
+  align-items: center;
+  overflow: hidden;
+  display:flex;
+  justify-content: space-around;
+  z-index:100;
+}
+
+h1 {
+  color: #ffff99;
+  font-family: 'Pinyon Script', cursive;
+  font-weight: lighter;
+  font-size: 40px;
+
+}
+a {
+  text-decoration: none;
+  color: #ffff99;
+  font-size: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+#histoire {
+  height: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+
+}
+
+#histoire .texte p {
+  color: #ffff99;
+  font-size: 15px;
+  font-family: 'Alegreya', serif;
+font-weight: lighter;
+
+}
+
+.texte {
+  height: 150px;
+}
+
+.texte h2 {
+  color: #ffff99;
+  font-size: 18px;
+  font-family: 'Alegreya', serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+
+#boutique {
+  height: 438px;
+  background-color: #FFEBCD;
+  font-family: 'Alegreya', serif;
+  font-size: 15px;
+  color: #331a00;
+}
+
+.textboutque {
+  text-align: left:
+}
+
+
+iframe {
+margin-left: 270px;
+position: relative;
+margin-top: -60px;
+}
+
+
+
+#specialites {
+  background-color: black;
+  height: 400px;
+}
+
+#specialites img {
+  height: 400px;
+  display: inline-block;
+margin-top: -180px;
+}
+
+
+#specialites .imgspe {
+margin-top:
+}
+
+#specialites .textspe {
+margin-left: -500px;
+margin-top: 60px;
+color: white;
+font-family: 'Alegreya', serif;
+color: #ffff99;
+font-size: 18px;
+}
+
+
+#boulanger {
+  height: 400px;
+  background-color: #FFEBCD;
+}
+
+#boulanger img {
+  height: 400px;
+  position: inline;
+margin-top: 0px;
+}
+
+#boulanger .textboul p{
+  font-family: 'Alegreya', serif;
+  font-size: 18px;
+  margin-top: 60px;
+  color: #331a00;
+}
